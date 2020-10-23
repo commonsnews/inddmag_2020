@@ -44,7 +44,7 @@ echo "<p>In the meantime, try it here to see proof of concept! <i>&mdash;Jeff Po
 
 echo "<h3>Simple scenario: Generate a single document from your data via a web form</h2>";
 	
-echo "<p>You can make a IDML template can be a specific form that will return a merged IDML file. (You might want to consider using Data Merge for this scenario, although the geekery behind it is cool. It could be useful when you need forms quickly.)</p>";
+echo "<p>This example takes a master IDML template designed as a specific form and merges data input from a web browser to create a new IDML file on the fly. (You might want to consider using Data Merge for this scenario, although the geekery behind it is cool. It could be useful when you need forms quickly.)</p>";
 
 	echo "<p><a href=\"textvariables.php?function=build&template=madlibs&fieldname_var01=Verb%20(past%20tense)&fieldname_var02=Proper%20noun&fieldname_var03=Breakfast&fieldname_var04=Animal&fieldname_var05=Politician&fieldname_var06=Location&fieldname_var07=Dinner%20utensil&fieldname_var08=Body%20part&fieldname_var09=Actor&fieldname_var10=Species%20of%20fish\">Click here for &ldquo;Mad Libs&rdquo;&ndash;style demo</a></p>";
 	
